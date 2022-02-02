@@ -60,7 +60,7 @@ let item = '';
 let thumb = '';
 let active = 1;
 
-for (let i = 0; i < items.length; i++) {
+// for (let i = 0; i < items.length; i++) {
     // item += `
     //         <div class="item">
     //             <img src="${items[i]}" alt="">
@@ -73,14 +73,17 @@ for (let i = 0; i < items.length; i++) {
     //         <div class="thumb">
     //             <img src="${items[i]}" alt="">
     //         </div>
-    ` 
-}
-const classi = [
-    ['Classe 1', 10],
-    ['Classe 2', 15]
-];
+//     ` 
+// }
 
-console.log(classi[1][1]);
+
+// const classi = [
+//     ['Classe 1', 10],
+//     ['Classe 2', 15]
+// ];
+// console.log(classi[1][1]); risultato 15
+
+
 // for (let i = 0; i < items.length; i++) {
 //     item += `
 //         <div class="item">
