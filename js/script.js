@@ -54,51 +54,29 @@ const items = [
 
 console.log(items);
 
+
 const itemsRef = document.getElementsByClassName('items')[0];
 const thumbsRef = document.getElementsByClassName('thumbs')[0];
 let item = '';
 let thumb = '';
 let active = 1;
 
-// for (let i = 0; i < items.length; i++) {
-    // item += `
-    //         <div class="item">
-    //             <img src="${items[i]}" alt="">
-    //             <div class="text">
-    //                 <h3>${title[i]}</h3>
-    //                 <p>${text[i]}</p>
-    //             </div>
-    //         </div>`
-    // thumb += `
-    //         <div class="thumb">
-    //             <img src="${items[i]}" alt="">
-    //         </div>
-//     ` 
-// }
 
-
-// const classi = [
-//     ['Classe 1', 10],
-//     ['Classe 2', 15]
-// ];
-// console.log(classi[1][1]); risultato 15
-
-
-// for (let i = 0; i < items.length; i++) {
-//     item += `
-//         <div class="item">
-//             <img src="${items[i]}" alt="">
-//             <div class="text">
-//                 <h3>${title[i]}</h3>
-//                 <p>${text[i]}</p>
-//             </div>
-//         </div>`
-//     thumb += `
-//         <div class="thumb">
-//             <img src="${items[i]}" alt="">
-//         </div>
-//     `
-// }
+for (let i = 0; i < items.length; i++) {
+    item += `
+        <div class="item">
+            <img src="${items[i].photo}" alt="">
+            <div class="text">
+                <h3>${items[i].title}</h3>
+                <p>${items[i].text}</p>
+            </div>
+        </div>`
+    thumb += `
+        <div class="thumb">
+            <img src="${items[i].photo}" alt="">
+        </div>
+    `
+}
 
 
 
