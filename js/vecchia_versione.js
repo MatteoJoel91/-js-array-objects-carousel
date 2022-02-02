@@ -22,6 +22,8 @@
 //     'Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam,',
 // ]
 
+
+// variabile items - keys: photo:  title:  text:
 const items = [
     {
         photo: 'img/01.jpg',
@@ -50,11 +52,14 @@ const items = [
     }
 ];
 
+
+
 const itemsRef = document.getElementsByClassName('items')[0];
 const thumbsRef = document.getElementsByClassName('thumbs')[0];
 let item = '';
 let thumb = '';
 let active = 1;
+
 
 // for (let i = 0; i < items.length; i++) {
 //     item += `
@@ -71,6 +76,8 @@ let active = 1;
 //         </div>
 //     `
 // }
+
+
 
 itemsRef.innerHTML = item;
 document.getElementsByClassName('item')[active].classList.add('active');
