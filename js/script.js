@@ -52,7 +52,8 @@ const items = [
     }
 ];
 
-console.log(items);
+// test console log per riferirmi alla proprietà della chiave
+console.log(items[0].photo);
 
 
 const itemsRef = document.getElementsByClassName('items')[0];
